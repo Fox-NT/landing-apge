@@ -273,6 +273,7 @@ hr {
 
 body {
     background-color: rgba(255, 255, 255, 1);
+    padding: 0 15px;
 }
 
 .header_container {
@@ -619,6 +620,7 @@ body {
         width: 100%;
         /* padding: 65px 30px 90px 30px; */
         background-color: rgba(255, 255, 255, 1);
+        padding: 0 15px;
     }
 
     .language {
@@ -636,12 +638,12 @@ body {
         left: 1000px;
         background-color: rgb(255, 255, 255);
         padding: 60px 28px 57px 26px;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .nav_list_active {
         left: 0;
-        transition: 1s;
+        transition: 0.5s;
     }
      
     .nav_list a {
@@ -713,12 +715,12 @@ body {
         font-size: 34px;
         line-height: 42px;
         color: #828282;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .lang_mobile_activ {
         right: -10px;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .burger::after {
