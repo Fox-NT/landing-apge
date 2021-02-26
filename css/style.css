@@ -665,6 +665,10 @@ body {
         border: none;
     }
 
+    .over {
+        overflow: hidden;
+    }
+
     .burger {
         display: block;
         position: absolute;
