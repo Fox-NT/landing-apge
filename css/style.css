@@ -660,6 +660,7 @@ body {
         background-color: rgb(255, 255, 255);
         padding: 60px 28px 57px 26px;
         transition: 0.5s;
+        overflow: auto;
     }
 
     .nav_list_active {
