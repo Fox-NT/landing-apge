@@ -625,7 +625,7 @@ body {
         display: none;
     }
     .mobile_wrapper {
-        display: none;
+        display: block;
     }
     .nav_list {
         display: block;
@@ -633,9 +633,15 @@ body {
         height: 100%;
         position: fixed;
         top: 0;
-        left: 0;
+        left: 1000px;
         background-color: rgb(255, 255, 255);
         padding: 60px 28px 57px 26px;
+        transition: 1s;
+    }
+
+    .nav_list_active {
+        left: 0;
+        transition: 1s;
     }
      
     .nav_list a {
@@ -700,12 +706,18 @@ body {
         position: fixed;
         z-index: 2000;
         bottom: 87px;
-        right: -10px;
+        right: -1000px;
         transform: rotate(90deg);
         font-family: 'Gilroy-Bold', Arial, sans-serif;
         font-size: 34px;
         line-height: 42px;
         color: #828282;
+        transition: 1s;
+    }
+
+    .lang_mobile_activ {
+        right: -10px;
+        transition: 1s;
     }
 
     .burger::after {
