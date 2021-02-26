@@ -651,6 +651,7 @@ body {
         font-family: 'Gilroy-Bold', Arial, sans-serif;
         font-size: 34px;
         line-height: 42px;
+        max-width: 60%;
     }
     .visible_mobile {
         display: block;
@@ -732,7 +733,7 @@ body {
     }
     .burger_active::after {
         transform: rotate(45deg);
-        top: 5px;
+        top: 6px;
         transition: 0.5s;
     }
     
