@@ -12,7 +12,9 @@ const burger = document.querySelector('.burger'),
 
     function moveItemMenu() {
         itemMenu.forEach((item, i) => {
+            setTimeout(() => {    
             item.classList.toggle('nav_item_active');
+            }, 200 * i);
         });
     }
 

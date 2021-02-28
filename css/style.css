@@ -694,7 +694,7 @@ body {
         left: 0;
     }
 
-    .nav_item_active:nth-child(1) {
+    /* .nav_item_active:nth-child(1) {
         transition: 0.5s;
     }
     .nav_item_active:nth-child(2) {
@@ -708,7 +708,7 @@ body {
     }
     .nav_item_active:nth-child(5) {
         transition: 1.3s;
-    }
+    } */
 
     .current_page a {
         color: #000;
